@@ -1,0 +1,97 @@
+nav {
+    background-color:darkblue;
+    justify-content: left;
+    padding: 0%;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    position: relative;
+}
+nav ul li a {
+    color:white;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+}
+  nav ul li a:hover {
+    background-color:darkgreen;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color:darkblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+nav ul li ul li {
+    width: 450px;
+}
+nav ul li p {
+    color: blue;
+}
+nav ul li:hover ul {
+    display: block;
+}
+.italic-red {
+    font-style: italic;
+    color: red;
+    font-size: 0.9em;
+}
+.italic-green {
+    font-style: italic;
+    color: lightgreen;
+    font-size: 0.9em;
+}
+div img {
+    width: 32%;
+    height: 270px;
+    padding: 0.5%;
+}
+div h2 {
+    background-color: darkblue;
+    color: white;
+}
+div h2 img {
+    width: 100px;
+    height: 30px;
+}
+div p {
+    font-size: 18px;
+}
+footer {
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+.my-name{
+      font-style: Times New Roman;
+      color: cyan;
+      font-size: 1.2em;
+}
+#contact {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
+#contact div {
+    height: 400px;
+    width: 400px;
+    margin: 60px;
+    text-align: left;
+}
+#contact div p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

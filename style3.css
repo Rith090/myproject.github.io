@@ -1,0 +1,70 @@
+nav {
+    background-color:darkblue;
+    justify-content: left;
+    padding: 0%;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    position: relative;
+}
+nav ul li a {
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+}
+  nav ul li a:hover {
+    background-color:darkgreen;
+}
+nav ul li ul {
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color:darkblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+nav ul li ul li {
+    width: 170px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+footer {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+nav ul li ul li {
+    width: 450px;
+}
+.italic-red {
+    font-style: italic;
+    color: red;
+    font-size: 0.9em;
+}
+.italic-green {
+    font-style: italic;
+    color: lightgreen;
+    font-size: 0.9em;
+}
+footer {
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+.my-name{
+      font-style: Times New Roman;
+      color: cyan;
+      font-size: 1.2em;
+}

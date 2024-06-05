@@ -1,0 +1,14 @@
+div p {
+    font-size: 20px;
+}
+div img {
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+footer {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
